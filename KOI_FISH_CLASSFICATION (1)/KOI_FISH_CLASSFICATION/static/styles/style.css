@@ -1,0 +1,39 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(../images/background.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* IMAGE INPUT - PREVIEW AREA */
+.picture-area {
+    padding: 20px;
+    background-color: #fff;
+    border: 2px solid rgba(0, 0, 0, 1);
+}
+.img-preview {
+    padding: 10px;
+    width: 400px;
+    min-height: 250px;
+    border: 2px solid rgba(0, 0, 0, 1);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img {
+    width: 100%;
+    object-fit: contain;
+}
+
+/* CAMERA AREA */
+.camera-area {
+    padding: 20px;
+    background-color: #fff;
+    border: 2px solid rgba(0, 0, 0, 1);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
